@@ -20,4 +20,10 @@ int main() {
     string pattern1 = "welcome";
     int result1 = findSubstring(text1, pattern1);
     cout << "First occurrence of 'welcome' in text1: " << result1 << endl;
+    // Test 2: Pattern is not found
+    string text2 = "This is a simple test.";
+    string pattern2 = "complex";
+    int result2 = findSubstring(text2, pattern2);
+    cout << "First occurrence of 'complex' in text2: " << result2 << endl; // Output: -1
+
 }
